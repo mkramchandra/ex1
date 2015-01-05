@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action id="Element@7109269:1246485660629" name="SS_Action_LoadNext" version="6.0.1">
+<config>
+<source type="Class">com.ss.ivr.survey.mainivr.LoadIndividualQuestion</source>
+</config>
+</action>

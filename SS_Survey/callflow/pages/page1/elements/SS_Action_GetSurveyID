@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action id="Element@14701793:1246298674140" name="SS_Action_GetSurveyID" version="6.0.1">
+<config>
+<source type="Class">com.ss.survey.mainivr.GetSurvey</source>
+</config>
+</action>

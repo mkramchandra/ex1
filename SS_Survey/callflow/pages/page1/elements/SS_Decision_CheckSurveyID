@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decision id="Element@20546400:1246298674140" name="SS_Decision_CheckSurveyID" version="6.0.1">
+<config>
+<source type="Decision Editor"><![CDATA[<knowledge_base>
+    <rule name="SS_Decision_CheckSurveyID" default_exit_state="Continue">
+        <exit_state name="NoSurvey" conjugate="and">
+            <number operator="equal">
+                <data>
+                    <session name="SurveyID" />
+                </data>
+                <constant_number value="0" />
+            </number>
+        </exit_state>
+    </rule>
+</knowledge_base>]]></source>
+</config>
+</decision>

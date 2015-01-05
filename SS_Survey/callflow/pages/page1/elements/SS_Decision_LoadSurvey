@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decision id="Element@15506120:1246485574612" name="SS_Decision_LoadSurvey" version="6.0.1">
+<config>
+<source type="Class">com.ss.ivr.survey.mainivr.LoadQuestions</source>
+</config>
+</decision>

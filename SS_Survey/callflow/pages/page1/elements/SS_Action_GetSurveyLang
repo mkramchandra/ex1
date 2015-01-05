@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action id="Element@10347561:1343731985174" name="SS_Action_GetSurveyLang" version="6.0.1">
+<config>
+<source type="Class">com.ss.ivr.survey.mainivr.SurveyLanguage</source>
+</config>
+</action>

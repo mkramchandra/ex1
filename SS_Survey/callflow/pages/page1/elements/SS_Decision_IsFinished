@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decision id="Element@4378942:1246298674140" name="SS_Decision_IsFinished" version="6.0.1">
+<config>
+<source type="Decision Editor"><![CDATA[<knowledge_base>
+    <rule name="FGA_Decision_IsFinished" default_exit_state="no">
+        <exit_state name="yes" conjugate="and">
+            <number operator="equal">
+                <data>
+                    <session name="Survey_Sess_CurrentQuestion" />
+                </data>
+                <constant_number value="0" />
+            </number>
+        </exit_state>
+    </rule>
+</knowledge_base>]]></source>
+</config>
+</decision>
