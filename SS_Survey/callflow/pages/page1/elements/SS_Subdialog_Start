@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subdialog_start id="Element@13766834:1246298674140" name="SS_Subdialog_Start" version="6.0.1">
+<config>
+<settings>
+<setting name="Parameter"></setting>
+<setting name="Where">Session Data</setting>
+<setting name="enable_digits_bypass">false</setting>
+</settings>
+</config>
+</subdialog_start>

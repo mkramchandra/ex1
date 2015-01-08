@@ -22,7 +22,7 @@
 <exit_state name="Continue" target="Element@10347561:1343731985174"/>
 </exit_states>
 </element>
-<element height="46" id="Element@13766834:1246298674140" name="Survey_Subdialog_Start" src="com.audium.server.voiceElement.internal.CiscoSubdialogStartElement" type="Subdialog Start" width="172" x="79" y="-246">
+<element height="46" id="Element@13766834:1246298674140" name="SS_Subdialog_Start" src="com.audium.server.voiceElement.internal.CiscoSubdialogStartElement" type="Subdialog Start" width="172" x="79" y="-246">
 <exit_states>
 <exit_state name="done" target="Element@7363392:1417716803628"/>
 </exit_states>

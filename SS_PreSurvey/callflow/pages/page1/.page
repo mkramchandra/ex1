@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="Page@29271569:1420728380615" name="page1" version="6.0.1">
+<element height="46" id="Element@6458279:1420728380615" name="Start Of Call" start_of_call="true" type="Page Entry" width="113" x="230" y="30">
+<exit_states>
+<exit_state name="next" target="Element@17857977:1420728615233"/>
+</exit_states>
+</element>
+<element height="46" id="Element@33314084:1420728392491" name="SS_Dec_OfferSurvey" type="Decision" width="154" x="206" y="253">
+<exit_states>
+<exit_state name="Yes" target="Element@17439542:1420728530641"/>
+<exit_state name="No" target="Element@6853776:1420728648626">
+<bendpoint>
+<dim1 x="170" y="43"/>
+<dim2 x="163" y="-206"/>
+</bendpoint>
+<bendpoint>
+<dim1 x="173" y="159"/>
+<dim2 x="166" y="-90"/>
+</bendpoint>
+</exit_state>
+</exit_states>
+</element>
+<element height="46" id="Element@17439542:1420728530641" name="SS_Audio_OfferSurvey" src="com.audium.server.voiceElement.audio.MAudio" type="Voice Element" width="166" x="204" y="395">
+<exit_states>
+<exit_state name="done" target="Element@6853776:1420728648626"/>
+</exit_states>
+</element>
+<element height="46" id="Element@17857977:1420728615233" name="SS_Subdialog_Start" src="com.audium.server.voiceElement.internal.CiscoSubdialogStartElement" type="Subdialog Start" width="172" x="202" y="125">
+<exit_states>
+<exit_state name="done" target="Element@33314084:1420728392491"/>
+</exit_states>
+</element>
+<element height="46" id="Element@6853776:1420728648626" name="SS_Subdialog_Return" src="com.audium.server.voiceElement.internal.CiscoSubdialogReturnElement" type="Subdialog Return" width="183" x="200" y="547">
+<exit_states>
+<exit_state name="done"/>
+</exit_states>
+</element>
+</page>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<voice_element id="Element@17439542:1420728530641" name="SS_Audio_OfferSurvey" version="6.0.1">
+<config>
+<audio>
+<audio_group barge_in="true" count="1" name="initial_audio_group">
+<audio_item name="audio item 1" type="static">
+<audio_item_notes></audio_item_notes>
+<audio_item_config view_id="default">
+<static default_audio_path="true" uri="PSQ1.wav"><![CDATA[After speaking to our Cigna
+representative, will you be willing
+to participate in a brief survey
+about your experience? 1 1 for
+yes, 2 for no.]]></static>
+</audio_item_config>
+</audio_item>
+</audio_group>
+</audio>
+</config>
+</voice_element>

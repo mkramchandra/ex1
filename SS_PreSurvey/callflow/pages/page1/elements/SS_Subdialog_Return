@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subdialog_return id="Element@6853776:1420728648626" name="SS_Subdialog_Return" version="6.0.1">
+<config>
+<settings>
+<setting name="caller_input">1</setting>
+<setting name="FromExtVXML0"></setting>
+<setting name="FromExtVXML1"></setting>
+<setting name="FromExtVXML2"></setting>
+<setting name="FromExtVXML3"></setting>
+</settings>
+</config>
+</subdialog_return>
